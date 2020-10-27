@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CRUD api builder</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Start: Navigation Clean -->
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background: rgb(227,246,255);">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="border-color: rgb(103,103,103);color: rgb(129,129,129);">CRUD / Api / Builder</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- End: Navigation Clean -->
+    <!-- Start: 1 Row 1 Column -->
+    <div style="margin-top: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-md-flex d-xl-flex flex-wrap justify-content-md-start justify-content-xl-start">
+                        <div class="d-md-flex justify-content-md-end" style="padding: 5px;"><button class="btn btn-info d-md-flex align-items-md-center align-items-xl-center" type="button" style="padding-top: 1px;padding-bottom: 3px;height: 33px;margin-left: 0px;">Workspace<i class="fa fa-cubes" style="margin-left: 5px;"></i></button>
+                            <button
+                                class="btn btn-info d-md-flex align-items-md-center align-items-xl-center" type="button" style="padding-top: 1px;padding-bottom: 3px;height: 33px;margin-left: 15px;">Collection<i class="fa fa-folder-open-o" style="margin-left: 5px;"></i></button><button class="btn btn-success d-md-flex justify-content-md-start align-items-md-center" type="button" style="padding-top: 1px;padding-bottom: 3px;height: 33px;margin-left: 15px;margin-top: 1px;background: rgb(109,194,128);">Export<i class="fa fa-download" style="padding-left: 10px;"></i></button>
+                                <button
+                                    class="btn btn-info d-md-flex justify-content-md-start align-items-md-center" type="button" style="padding-top: 1px;padding-bottom: 3px;height: 33px;margin-left: 15px;margin-top: 1px;background: rgb(0,123,255);">Save<i class="fa fa-save" style="margin-left: 5px;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 1 Column -->
+    <!-- Start: 1 Row 1 Column -->
+    <div style="margin-top: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-sm-flex d-xl-flex align-items-sm-end justify-content-xl-start">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 1 Column -->
+    <!-- Start: 1 Row 1 Column -->
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start" style="margin-left: 10px;">
+                        <p style="margin-bottom: 0px;">Workspace&nbsp;</p>
+                        <p style="margin-bottom: 0px;margin-left: 7px;">&gt;</p>
+                        <p style="margin-bottom: 0px;margin-left: 7px;">Collection</p>
+                        <p style="margin-bottom: 0px;margin-left: 3px;color: rgb(255,132,63);font-weight: normal;">(4)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 1 Column -->
+    <!-- Start: 1 Row 1 Column -->
+    <div style="margin-bottom: 25px;padding-bottom: 25px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="margin-top: 0px;">
+                    <div class="d-flex d-sm-flex d-xl-flex justify-content-start flex-wrap justify-content-sm-start justify-content-xl-start">
+                        <div class="shadow-sm" style="margin: 10px;">
+                            <div class="d-flex d-xl-flex justify-content-start align-items-center justify-content-xl-start align-items-xl-center" style="background: #007bff;width: 315px;border-radius: 0px;border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                                <div class="d-xl-flex flex-fill justify-content-xl-start" style="padding: 5px;padding-left: 10px;">
+                                    <p class="flex-fill" style="margin-top: 0px;padding-top: 10px;color: rgb(255,255,255);">Collection Name</p>
+                                </div>
+                                <div class="d-xl-flex justify-content-xl-end" style="padding-right: 10px;"><i class="fa fa-pencil" style="color: rgb(255,255,255);"></i><i class="fa fa-copy" style="color: rgb(255,255,255);margin-left: 10px;"></i></div>
+                            </div>
+                            <div style="width: 315px;padding: 10px;">
+                                <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center" style="padding: 5px;">
+                                    <p class="flex-fill" style="margin-bottom: 0px;">Object Type</p><select style="border-style: none;border-color: rgb(94,94,94);color: rgb(137,137,137);"><option value="json" selected="">Json</option><option value="array">Array</option></select></div>
+                                <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center"
+                                    style="padding: 5px;">
+                                    <p class="flex-fill" style="margin-bottom: 0px;">Type</p><select style="border-style: none;border-color: rgb(94,94,94);color: rgb(137,137,137);"><option value="boolean">Boolean</option><option value="string" selected="">String</option><option value="number">Number</option><option value="date">Date</option></select></div>
+                                <div
+                                    class="d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center" style="padding: 5px;">
+                                    <p class="flex-fill" style="margin-bottom: 0px;">Unique</p><select style="border-style: none;border-color: rgb(94,94,94);color: rgb(137,137,137);"><option value="true">true</option><option value="fase">false</option></select></div>
+                            <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center"
+                                style="padding: 5px;">
+                                <p class="flex-fill" style="margin-bottom: 0px;">Required</p><select style="border-style: none;border-color: rgb(94,94,94);color: rgb(137,137,137);"><option value="true">true</option><option value="false">false</option></select></div>
+                            <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center"
+                                style="padding: 5px;margin-top: 10px;"><button class="btn btn-danger" type="button" style="height: 30px;padding-top: 0px;font-size: 13px;">Delete</button><button class="btn btn-info" type="button" style="height: 30px;padding-top: 0px;font-size: 13px;margin-left: 5px;">Add</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End: 1 Row 1 Column -->
+    <!-- Start: CollectionModal -->
+    <div class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;background: #047cff;">
+                    <p style="margin-bottom: 0px;color: rgb(255,255,255);">Collection</p><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div style="padding: 15px;">
+                        <div class="d-flex d-xl-flex justify-content-start align-items-center justify-content-xl-start align-items-xl-center" style="padding: 5px;background: #f9f9f9;border-radius: 5px;border: 0.1px solid rgb(163,163,163) ;">
+                            <p class="flex-fill" style="margin-bottom: 0px;">Collection 1</p><i class="fa fa-trash" style="color: rgb(255,49,49);"></i></div>
+                        <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start" style="margin-top: 25px;"><input class="flex-fill" type="text" style="border-top-style: none;border-right-style: none;border-bottom-width: 1px;border-bottom-color: rgb(153,153,153);border-left-style: none;padding-right: 2px;margin-left: 0px;margin-right: 8px;"
+                                placeholder="Collection Name" name="workspaceName"><button class="btn btn-primary" type="button" style="margin-left: 0px;height: 34px;padding-top: 4px;">Create New</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: CollectionModal -->
+    <!-- Start: WorkspaceModal -->
+    <div class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;background: #007aff;">
+                    <p style="margin-bottom: 0px;color: rgb(255,255,255);">Workspace</p><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div style="padding: 15px;">
+                        <div class="d-flex d-xl-flex justify-content-start align-items-center justify-content-xl-start align-items-xl-center" style="padding: 5px;background: #f9f9f9;border-radius: 5px;border: 0.1px solid rgb(163,163,163) ;">
+                            <p class="flex-fill" style="margin-bottom: 0px;">Workspace 1</p><i class="fa fa-trash" style="color: rgb(255,49,49);"></i></div>
+                        <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start" style="margin-top: 25px;"><input class="flex-fill" type="text" style="border-top-style: none;border-right-style: none;border-bottom-width: 1px;border-bottom-color: rgb(153,153,153);border-left-style: none;padding-right: 2px;margin-left: 0px;margin-right: 8px;"
+                                placeholder="Workspace  Name" name="workspaceName"><button class="btn btn-info" type="button" style="margin-left: 0px;height: 34px;padding-top: 4px;">Create New</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: WorkspaceModal -->
+    <div class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="border-style: none;padding-bottom: 0px;padding-top: 32px;">
+                    <p style="font-size: 25px;text-align: center;">Are you want to save the collection</p>
+                </div>
+                <div class="modal-footer d-xl-flex justify-content-xl-center" style="border-style: none;padding-top: 0px;padding-bottom: 24px;"><button class="btn btn-primary" type="button" style="border-radius: 20px;padding-right: 20px;padding-left: 20px;">Yes</button><button class="btn btn-danger" type="button" data-dismiss="modal" style="border-radius: 20px;padding-right: 20px;padding-left: 20px;">No</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;background: #007bff;">
+                    <p style="margin-bottom: 0px;color: rgb(255,255,255);">Key Name</p><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body" style="border-style: none;padding-bottom: 16px;padding-top: 16px;">
+                    <div class="d-xl-flex justify-content-xl-start"><input class="form-control-lg flex-fill" type="text" placeholder="Key Name" style="border-color: rgb(186,186,186);border-top-style: none;border-right-style: none;border-left-style: none;"></div>
+                </div>
+                <div class="modal-footer d-xl-flex justify-content-xl-end" style="border-style: none;padding-top: 15px;padding-bottom: 10px;"><button class="btn btn-primary" type="button" style="border-radius: 20px;padding-right: 20px;padding-left: 20px;">Set</button><button class="btn btn-danger" type="button" data-dismiss="modal" style="border-radius: 20px;padding-right: 20px;padding-left: 20px;">Cancel</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/client/hero.js"></script>
+</body>
+
+</html>
