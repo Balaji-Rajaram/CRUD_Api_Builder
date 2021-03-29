@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CRUD api builder</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="border-radius: 5px;">
+    <!-- Start: 1 Row 2 Columns -->
+    <div style="margin-top: 30vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex d-xl-flex justify-content-center justify-content-xl-end align-items-xl-center">
+                    <form action="/crudApiBuilder" method="post">
+                        <div class="d-xl-flex justify-content-xl-center align-items-xl-center">
+                            <div>
+                                <div>
+                                    <h3 style="margin-bottom: 15px;">Login</h3>
+                                </div>
+                                <div style="margin-bottom: 15px;">
+                                    <p style="margin-bottom: 5px;">Name</p>
+                                    <div><input type="text" style="width: 250px;border: 2px solid rgb(200,200,200);border-radius: 5px;" placeholder="Name" name="name" id="name" required="true" minlength="6" maxlength="15" autofocus=""></div>
+                                </div>
+                                <div>
+                                    <p style="margin-bottom: 5px;">Password</p>
+                                    <div class="d-flex d-xl-flex flex-fill justify-content-start justify-content-xl-start"><input class="flex-fill" type="password" id="password" required="true" style="border: 2px solid rgb(200,200,200);border-radius: 5px;" required="" maxlength="15" minlength="6" placeholder="Password" name="password"></div>
+                                </div>
+                                <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start" style="margin-top: 20px;"><button class="btn btn-primary flex-fill" type="submit" style="padding-top: 3px;padding-bottom: 3px;">Login</button></div>
+                                <div class="d-flex d-xl-flex justify-content-start justify-content-xl-start" style="margin-top: 20px;">
+                                    <p style="margin-bottom: 0px;">I don't have account</p><a href="/register" style="margin-left: 5px;">Register</a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-center" style="background: url(&quot;assets/img/api.png&quot;) center / contain no-repeat;">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 2 Columns -->
+    <script src="./views/assets/js/jquery.min.js"></script>
+    <script src="./views/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
