@@ -1,0 +1,13 @@
+{"email":{
+                    "type":"String",
+                    "unique":"true",
+                    "required":"true"
+                },"password":{
+                    "type":"String",
+                    "unique":"false",
+                    "required":"false"
+                },"name":{
+                    "type":"String",
+                    "unique":"false",
+                    "required":"false"
+                }}
